@@ -1,0 +1,30 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 80px;
+}
+
+.page-container > .content-wrapper {
+    width: 1000px;
+}
+
+.page-container > .content-wrapper > #chef {
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    filter: brightness(80%);
+}
+.page-container > .content-wrapper h1 {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #4c1617;
+}
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #4c1617;
+}

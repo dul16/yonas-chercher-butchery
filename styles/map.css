@@ -1,0 +1,25 @@
+.map {
+    background-color: black;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.map > .iframe {
+    height: 435px;
+    width: 300px;
+}
+.page-container >.reviews {
+    width: 1000px;
+}
+.page-container > .reviews h1 {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #4c1617;
+}
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #4c1617;
+}

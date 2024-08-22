@@ -1,0 +1,61 @@
+.contact-grid-wrapper {
+    
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contact-grid-wrapper > .logo img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    color: #4c1617;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #4c1617;
+}
+.hero-section2 {
+    margin-left: 550px;
+    background-color: black;
+    height: 100px;
+}
+
+.hero-section2 > .bottom-heading2 {
+    background-color: #4c1617;
+    color: #ddc7c7;
+    padding: 15px 10px;
+    width: 107px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.25em;
+    border: 1px solid #ddc7c7;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.hero-section2 > .bottom-heading2 a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #ddc7c7;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.hero-section2 > .bottom-heading2 a:hover {
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+   

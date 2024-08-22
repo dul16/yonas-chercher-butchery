@@ -1,0 +1,22 @@
+/* Common styles */
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+.all {
+    background-color: black;   
+}
+.all2 {
+    background-color: #ddc7c7;   
+}
+h6 {
+    color: #ddc7c7;
+    text-align: center;
+    font-size: 2em;
+}
+
+    
