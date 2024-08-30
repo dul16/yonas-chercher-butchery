@@ -6,8 +6,6 @@
 
     .navigation-wrapper > .left-column {
         order: 2;
-        margin-top: 10px;
-        margin-bottom: 15px;
     }
 
     .navigation-wrapper > .center-column {
@@ -15,44 +13,38 @@
         width: 100%;
     }
 
-    .navigation-wrapper > .right-column {
-        order: 3;
-        margin-top: 15px;
-    }
-
     .links-wrapper {
         flex-direction: column;
-        margin-bottom: 20px;
     }
 
     .links-wrapper > .nav-link {
         margin-top: 10px;
-        margin-bottom: 10px;
         font-size: 1.5em;
         width: 100%;
     }
     .hero-section {
         flex-direction: column;
-        margin-bottom: 20px;
     }
 
     .hero-section > .bottom-heading {
-        color: #ddc7c7;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        color: #000000;
+        margin-top: 100px;
         font-size: 1.5em;
-        width: 100%;
+        background-color: #ddc7c7;
+        padding: 15px 20px;
+        text-align: center;
+        border-radius: 5px;
+
     }
     .hero-section > .bottom-heading a {
         font-family: "Ubuntu Condensed", sans-serif;
-        color: #cbcbcb;
+        color: #000000;
         text-decoration: none;
-        transition: 0.5s;
-        
+        transition: 0.5s;   
     }
-
-    .hero-section {
-        padding: 50px 10px;
+    .hero-section > .bottom-heading a:hover {
+        color: #4c1617;
+        letter-spacing: 2px;
     }
 
     .features-section {
@@ -103,12 +95,30 @@
         grid-template-columns: 1fr;
         grid-gap: 10px;
     }
-
-    .form input {
-        padding: 1.5rem 0rem;
+    .map {
+        background-color: black;
+        height: 450px;
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .map > .iframe {
+        height: 435px;
     }
 
-    .form textarea {
-        padding: 1.5rem 0rem;
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
+    .contact-info h2 {
+        font-size: 3rem;
+        text-align: left;
+        font-family: Chairdrobe, "sans-serif";
+        font-weight: 900;
+        color: #2e0303
+    }
+    
+    
 }
