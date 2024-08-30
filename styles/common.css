@@ -10,13 +10,9 @@ h1, h2, h3, h4, h5, h6 {
 .all {
     background-color: black;   
 }
-.all2 {
-    background-color: #ddc7c7;   
-}
-h6 {
-    color: #ddc7c7;
-    text-align: center;
-    font-size: 2em;
+h1 {
+    color: #858585;
+    font-size: 1.5em;
 }
 
     
