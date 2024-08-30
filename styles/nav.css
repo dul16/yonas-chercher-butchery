@@ -2,18 +2,10 @@
 .navigation-wrapper {
     background-color: #000000;
     color: #ddc7c7;
-    /* Flexbox container */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0px 100px;
 }
 
 /* Left column styles */
-.navigation-wrapper > .left-column {
-    display: flex;
-    align-items: center;
-}
 
 .navigation-wrapper > .left-column > .icon {
     margin-right: 15px;
@@ -23,13 +15,10 @@
     font-size: 2em;;
 }
 
-
-
 .navigation-wrapper > .left-column {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 42px;
-    width: 500px;
 }
 
 .navigation-wrapper > .left-column > .banner-image {
@@ -70,7 +59,7 @@
 /* Right column styles */
 .navigation-wrapper > .right-column {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .navigation-wrapper > .right-column > .address-wrapper {
