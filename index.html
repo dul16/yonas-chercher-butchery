@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Homepage</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
@@ -20,135 +21,151 @@
 
 </head>
 <body>
-    <div class="navigation-wrapper">
+    <div id="header-usps" class="header-usps flex justify-content lg:py-2 max-md:py-1 max-md:mb-2 font-medium" style="background: rgb(128, 170, 181); display: flex; justify-content: center; ">
+        <svg class="mr-3" width="20px" height="20px" viewBox="0 0 20 20" version="1.1">
+            <g id="Desktop" stroke="none" stroke-width="1" fill="#2E0303" fill-rule="evenodd">
+                <g id="Categoriepagina-(bannerafbeelding)---Desktop" transform="translate(-783, -10.5)">
+                    <g id="Check-Copy-2" transform="translate(783, 10.5)">
+                        <circle id="Oval" stroke="#EAE7DE" cx="10" cy="10" r="9.5"></circle>
+                        <polygon id="Path" fill="#EAE7DE" points="7.07446809 8.43085106 9.11347518 10.4787234 12.9255319 6.66666667 14.1666667 7.92553191 9.11347518 12.9609929 5.83333333 9.68085106 7.07446809 8.42198582"></polygon>
+                    </g>
+                </g>
+            </g>
+        </svg>
+    <span class="lg:text-sm max-md:text-xs underline cursor-pointer" onclick="window.dispatchEvent(new CustomEvent('hyva-modal-show', {detail: {dialog: 'outer'}})); document.body.classList.toggle('overflow-hidden');"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        Ordered Now, We Will Deliver To You Right Away!
+    </font></font></span>
+</div>
 
-        <div class="left-column">
-            <div class="banner-image">
-                <img src="images/logos/IMG_2414.PNG" alt="Logo">
-            </div>
-        </div>
+<div class="navigation-wrapper">
 
-        <div class="right-column">
-            <div class="links-wrapper">
-                <div class="nav-link">
-                    <a href="index.html">Home</a>
-                </div>
-
-                <div class="nav-link">
-                    <a href="Foods.html">Foods</a>
-                </div>
-                
-                <div class="nav-link">
-                    <a href="Drinks.html">Drinks</a>
-                </div>
-
-                <div class="nav-link">
-                    <a href="about.html">About</a>
-                </div>
-
-                <div class="nav-link">
-                    <a href="contact.html">Contact</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="hero-section">
-
-        <div class="bottom-heading">
-                <a href="contact.html">Order Now</a>
-        </div>
-    </div>
-
-    <div class="features-section">
-        <div class="columns-wrapper">
-            <div class="column">
-                <i class="fas fa-truck-monster"></i>
-                <p>We Deliver!</p>
-
-                <p>
-                    We offer convenient delivery right to your door, ensuring you enjoy our delicious offerings
-                    without leaving home.
-                </p>
-            </div>
-
-        
-
-            <div class="column">
-                <i class="fas fa-chart-line"></i>
-                <p>100+ types of flavors!</p>
-
-                <p>
-                    Explore an array of unique flavors that will delight your palate and elevate your dining
-                    experience. 
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4703491197934!2d38.76655837402492!3d9.020785791040206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b859a135f8edd%3A0xc01886be98fad1f3!2sYonas%20CherCher%20Kazanchis!5e0!3m2!1sen!2set!4v1724270149862!5m2!1sen!2set" 
-        style="border:10px solid #4c1617; height: 450px; width: 50%;" allowfullscreen="" loading="Lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15762.334992888247!2d38.767734512091316!3d9.010393740305222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85000f3c72eb%3A0x9de979fcf42c8bf2!2zWW9uYXMgQ2hlckNoZXIgfCBIYXlhaHVsZXQgfCDhi67hipPhiLUg4Yyo4Yit4Yyo4YitIHwg4YiD4Yur4YiB4YiI4Ym1!5e0!3m2!1sen!2set!4v1724270609937!5m2!1sen!2set"
-        style="border:10px solid #4c1617; height: 450px; width: 50%; ;"
-         allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    <div class="spacer60"></div>
-
-    <div class="footer">
-        <div class="logo-footer">
+    <div class="left-column">
+        <div class="banner-image">
             <img src="images/logos/IMG_2414.PNG" alt="Logo">
         </div>
+    </div>
 
-        <div class="footer-phone-hours">
-            <span class="phone">
-                555 555 5555
-            </span>
-
-            <span class="hours">
-                1 am - midnight
-            </span>
+<div class="right-column">
+    <div class="links-wrapper">
+        <div class="nav-link">
+            <a href="index.html">Home</a>
         </div>
 
-        <div class="links-wrapper">
-            <div class="nav-link">
-                <a href="index.html">Home</a>
-            </div>
-
-            <div class="nav-link">
-                <a href="Foods.html">Foods</a>
-            </div>
-
-            <div class="nav-link">
-                <a href="Drinks.html">Drinks</a>
-            </div>
-
-            <div class="nav-link">
-                <a href="about.html">About</a>
-            </div>
-          
-            <div class="nav-link">
-                <a href="contact.html">Contact</a>
-            </div>
+        <div class="nav-link">
+            <a href="Foods.html">Foods</a>
+        </div>
+        
+        <div class="nav-link">
+            <a href="Drinks.html">Drinks</a>
         </div>
 
-        <div class="social-media-icons-wrapper">
-            <a href="#">
-                <i class="fab fa-instagram"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-twitter"></i>
-            </a>
-
-            <a href="#">
-                <i class="fab fa-facebook-f"></i>
-            </a>
+        <div class="nav-link">
+            <a href="about.html">About</a>
         </div>
 
-        <div class="copyright-wrapper">
-            &copy; Yonas Chercher &#124; All rights reserved
+        <div class="nav-link">
+            <a href="contact.html">Contact</a>
         </div>
     </div>
+</div>
+
+</div>
+
+<div class="hero-section">
+<div class="bottom-heading">
+        <a href="contact.html">Order Now</a>
+</div>
+</div>
+
+<div class="features-section">
+<div class="columns-wrapper">
+    <div class="column">
+        <i class="fas fa-truck-monster"></i>
+        <p>We Deliver!</p>
+
+        <p>
+            We offer convenient delivery right to your door, ensuring you enjoy our delicious offerings
+            without leaving home.
+        </p>
+    </div>
+
+
+
+    <div class="column">
+        <i class="fas fa-chart-line"></i>
+        <p>100+ types of flavors!</p>
+
+        <p>
+            Explore an array of unique flavors that will delight your palate and elevate your dining
+            experience. 
+        </p>
+    </div>
+</div>
+</div>
+<div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.4703491197934!2d38.76655837402492!3d9.020785791040206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b859a135f8edd%3A0xc01886be98fad1f3!2sYonas%20CherCher%20Kazanchis!5e0!3m2!1sen!2set!4v1724270149862!5m2!1sen!2set" 
+style="border:10px solid #4c1617; height: 450px; width: 45.75%;" allowfullscreen="" loading="Lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15762.334992888247!2d38.767734512091316!3d9.010393740305222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85000f3c72eb%3A0x9de979fcf42c8bf2!2zWW9uYXMgQ2hlckNoZXIgfCBIYXlhaHVsZXQgfCDhi67hipPhiLUg4Yyo4Yit4Yyo4YitIHwg4YiD4Yur4YiB4YiI4Ym1!5e0!3m2!1sen!2set!4v1724270609937!5m2!1sen!2set"
+style="border:10px solid #4c1617; height: 450px; width: 45.75%;"
+ allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<div class="spacer60"></div>
+
+<div class="footer">
+<div class="logo-footer">
+    <img src="images/logos/IMG_2414.PNG" alt="Logo">
+</div>
+
+<div class="footer-phone-hours">
+    <span class="phone">
+        555 555 5555
+    </span>
+
+    <span class="hours">
+        1 am - midnight
+    </span>
+</div>
+
+<div class="links-wrapper">
+    <div class="nav-link">
+        <a href="index.html">Home</a>
+    </div>
+
+    <div class="nav-link">
+        <a href="Foods.html">Foods</a>
+    </div>
+
+    <div class="nav-link">
+        <a href="Drinks.html">Drinks</a>
+    </div>
+
+    <div class="nav-link">
+        <a href="about.html">About</a>
+    </div>
+  
+    <div class="nav-link">
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<div class="social-media-icons-wrapper">
+    <a href="#">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+    <a href="#">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+</div>
+
+<div class="copyright-wrapper">
+    &copy; Yonas Chercher &#124; All rights reserved
+</div>
+</div>
+    
 </body>
 </html>
