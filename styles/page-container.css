@@ -9,7 +9,7 @@
     width: 1000px;
 }
 
-.page-container > .content-wrapper img {
+.page-container > .content-wrapper > #chef {
     width: 350px;
     margin-top: 20px;
     margin-right: 20px;
